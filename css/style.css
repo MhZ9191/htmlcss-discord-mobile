@@ -13,10 +13,9 @@ body {
 }
 
 div.top{
-    padding:10px;
-    width: 350px;
+    width: 600px;
     max-width:100%;
-    margin:30px auto 50px auto;
+    margin:30px auto 30px auto;
     text-align: center;
     color:white;
 }
@@ -34,7 +33,7 @@ div.top{
 
 .download_button {
     margin:15px auto 5px auto;
-    width:350px;
+    width:600px;
     max-width:100%;
     padding: 16px;
     border-radius: 10px 10px;
@@ -46,7 +45,7 @@ div.top{
     background-color: #5865f2;
     margin: 5px auto;
     border-radius: 10px 10px;
-    width:350px;
+    width:600px;
     max-width:100%;
     padding:16px;
     border-width: 0;
@@ -58,14 +57,16 @@ div.top{
 
 div.card{
     padding:40px 20px;
-    width: 350px;
+    width: 600px;
     max-width:100%;
-    margin:10px auto 50px auto;
+    margin:10px auto 30px auto;
     text-align:left;
     color:white;
-    background-color: #5d64d1;
+    /*background-color: #5d64d1;*/
     border-radius:30px 30px;
     position:relative;
+    background-image: url("../img/background.png");
+    background-size: cover;
 }
 
 .testo_norm{
@@ -81,11 +82,19 @@ video{
     border-radius: 30px 30px;
 }
 
-#test{
+.test{
     width: 80px;
     height: 80px;
     position:absolute;
     top:0;
     left:50%;
     transform: translate(-50%,-50%);
+}
+
+section{
+    padding:30px;
+}
+
+.bi-cloud-download-fill{
+    color:black;
 }
