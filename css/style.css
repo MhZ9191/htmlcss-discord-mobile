@@ -9,14 +9,14 @@ img {
 }
 
 body {
-    background-color: #301098;
+    background-color: #191d7b;
 }
 
-section.intro{
+div.top{
     padding:10px;
     width: 350px;
     max-width:100%;
-    margin:30px auto auto auto;
+    margin:30px auto 50px auto;
     text-align: center;
     color:white;
 }
@@ -42,11 +42,45 @@ section.intro{
 
 .discord_button {
     color: white;
-    background-color: #2D41C0;
+    background-color: #5865f2;
     margin: 5px auto;
     border-radius: 10px 10px;
     width:350px;
     max-width:100%;
     padding:16px;
     border-width: 0;
+}
+
+div.card{
+    padding:40px 20px;
+    width: 350px;
+    max-width:100%;
+    margin:10px auto 20px auto;
+    text-align:left;
+    color:white;
+    background-color: #5d64d1;
+    border-radius:30px 30px;
+    position:relative;
+}
+
+.text_big{
+    margin-bottom: 20px;
+}
+
+.testo_norm{
+    margin-bottom: 10px;
+}
+
+video{
+    width:100%;
+    border-radius: 30px 30px;
+}
+
+#test{
+    width: 80px;
+    height: 80px;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
