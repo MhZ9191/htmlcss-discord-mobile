@@ -52,6 +52,10 @@ div.top{
     border-width: 0;
 }
 
+.discord_button:hover{
+    background-color:#5d64d1;
+}
+
 div.card{
     padding:40px 20px;
     width: 350px;
