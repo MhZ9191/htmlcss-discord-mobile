@@ -98,3 +98,17 @@ section{
 .bi-cloud-download-fill{
     color:black;
 }
+
+.bi-arrow-up{
+    color:white;
+    background-color: #5d64d1;;
+    position:fixed;
+    width:40px;
+    height: 40px;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
